@@ -1,0 +1,99 @@
+//Bai9:Turtle
+// s=[`red`,`gray`,`blue`,`purple`,`cyan`];
+// for(n=20;n<=80;n=n+20)
+// {
+//     for(i=0;i<=3;i++)
+//   {
+//     for(i=1;i<=4;i++)
+//   {
+//     color(s[i]);
+//     fd(n);
+//     rt(90);
+//   }
+//   }
+// }
+
+//Bai1:Swap
+// let a = 5;
+// let b = 6;
+// let c=0
+// console.log(a, b);
+// c=a;
+// a=b;
+// b=c;
+// console.log(a,b);
+
+// let a = 5;
+// let b = 6;
+// let c=0
+// console.log(a, b);
+// a = b + (b=a, 0);
+// console.log(a,b);
+
+
+//Bai2:Split
+// var s= `Hello beauty there`;
+// console.log(s);
+// var a=s.split(" ");
+// console.log(a);
+
+//Bai3:
+// const a = [4, 5, 7, -8];
+// console.log(...a);
+
+//Bai4:
+// let menu=[``,`Jeans`,`T-Shirt`,`Socks`];
+// let i=prompt("Welcome to shop admin panel, what do you want(C,R,U,D)");
+// while(true)
+// {
+//     if(i==`R`)
+// {
+//     console.log("The current item are");
+//     for(let a=1;a<=3;a++)
+//     {
+//         console.log(`${a} ${menu[a]}`);
+//     }
+//     break;
+// }
+// else if(i==`C`)
+// {
+//     let e = prompt(' Enter the name of the new item:');
+//         alert('Done');
+//         c.push(e);
+//         break;
+// }
+// else if(i==`U`)
+// {
+//     let a = Number(prompt("Enter the position you want to update"));
+//     let b = prompt(" Enter the new name");
+//     alert("Done");
+//     c[a]=b;
+//     break;
+// }
+// else if(i==`D`)
+// {
+//     let h = Number(prompt("Enter the position you want to delete"));
+//     alert("Done");
+//     c.splice(h,1);
+//     break;
+// }
+// else console.log(`This command is not supported`);
+// prompt(`Enter again`);
+// }
+
+
+//Bai5:
+// let a = prompt(`Nhập dãy số cách nhau bằng space`);
+// let b = a.split(' ');
+// let tong = 0;
+// for (let i= 0; i < b.length; i++) {
+//     tong = tong + Number(b[i]);
+// }
+// alert(` Tổng của dãy số là ${tong}`);
+// let min = Number(b[0]);
+// for (let i = 0; i < b.length; i++){
+//     if (b[i] < min){
+//         min = b[i];
+//     }
+// }
+// alert(`Số nhỏ nhất là ${min}`);
