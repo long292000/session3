@@ -133,3 +133,16 @@
 //     }
 //     console.log(`My flock has size in total : ${sum}`);
 //     console.log(`I would get ${sum} * 2$ = ${sum * 2}$ `);
+
+
+//Bai7:
+// let s=[3, 4, 6, -9, 10,-88, 2];
+// let tim=true;
+// while(tim)
+// {
+//     let a= parseInt(prompt(`Nhập 1 số`));
+//     if(addNum=== arr[i]){
+//         alert(`${addNum} is found in my array at index ${i} `);
+//     }
+//     else alert(`${addNum} is not found in my array`);
+// }
