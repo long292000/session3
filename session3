@@ -43,9 +43,9 @@
 
 //Bai4:
 // let menu=[``,`Jeans`,`T-Shirt`,`Socks`];
-// let i=prompt("Welcome to shop admin panel, what do you want(C,R,U,D)");
 // while(true)
 // {
+//     let i=prompt("Welcome to shop admin panel, what do you want(C,R,U,D)");
 //     if(i==`R`)
 // {
 //     console.log("The current item are");
