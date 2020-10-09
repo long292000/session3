@@ -97,3 +97,39 @@
 //     }
 // }
 // alert(`Số nhỏ nhất là ${min}`);
+
+
+let sheepSize = [5,7,300,90,24,50,75];
+//     console.log("Hi, my name is Duy and here is my sheep sizes :");
+//     console.log(...sheepSize);
+
+//     let max = Math.max(...sheepSize);
+//     console.log(`Now my biggest sheep has size ${max}, let's shave it`);
+//     sheepSize[sheepSize.indexOf(max)] = 8;
+//     console.log(...sheepSize);
+
+//     for (i = 0; i < 2; i++) {
+//         console.log(`Month ${i + 1}`);
+//         console.log("One month has passed, my sheeps have grown, here are their sizes :");
+//         for(let i = 0; i < sheepSize.length; i++) {
+//             sheepSize[i] = sheepSize[i] + 50;
+//         }
+//         console.log(...sheepSize);
+//         let max = Math.max(...sheepSize);
+//         console.log(`Now my biggest sheep has size ${max}, let's shave it`);
+//         sheepSize[sheepSize.indexOf(max)] = 8;
+//         console.log(...sheepSize);
+//     }
+//     console.log(`Month 3`);
+//         console.log("One month has passed, my sheeps have grown, here are their sizes :");
+//         for(let i = 0; i < sheepSize.length; i++) {
+//             sheepSize[i] = sheepSize[i] + 50;
+//         }
+//     console.log(...sheepSize);
+
+//     let sum = 0;
+//     for (i = 0; i < sheepSize.length; i++) {
+//         sum += sheepSize[i];
+//     }
+//     console.log(`My flock has size in total : ${sum}`);
+//     console.log(`I would get ${sum} * 2$ = ${sum * 2}$ `);
